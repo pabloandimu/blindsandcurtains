@@ -3,6 +3,8 @@ let whatsApp = "https://api.whatsapp.com/send/?phone=5493413236230&text=";
 document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('enlaceForm').addEventListener('click', function(a) {
     a.preventDefault();
+
+    
     let conector = "+"
     let nombre =  document.getElementById('name').value;
     let correo = document.getElementById('email').value;
@@ -44,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
        document.getElementById("message").style.borderColor = "#dadada";
        setTimeout(() => {
         enviar();
-      }, "1000");
+      }, "500");
         
     }
 
