@@ -1,6 +1,29 @@
 
 /* @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,500i,600,600i,700,700i,800|Open+Sans:400,400i,600,600i,700,700i,800&display=swap); */
 
+/* FONTS
+================================================== */
+
+@font-face {
+  font-family:'Monserrat';
+  src: url(/fonts/Montserrat-Black.ttf);
+
+  font-family:'Monserrat';
+  src: url(/fonts/Montserrat-BlackItalic.ttf);
+  font-style: italic;
+
+  font-family:'Monserrat';
+  src: url(/fonts/Montserrat-Bold.ttf);
+  font-weight: bold;
+  font-style: bold;
+
+  font-family:'Monserrat';
+  src: url(/fonts/Montserrat-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+
+}
+
 /* Typography
 ================================================== */
 
