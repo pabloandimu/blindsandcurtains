@@ -1,8 +1,17 @@
 let whatsApp = "https://api.whatsapp.com/send/?phone=5493413236230&text=";
 
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('enlaceForm').addEventListener('click', function(a) {
-    a.preventDefault();
+// document.addEventListener('DOMContentLoaded', function() {
+//   document.getElementById('enlaceForm').addEventListener('click', function(a) {
+//     a.preventDefault();
+
+
+
+    if (document.getElementById('enlaceForm') !== null) {
+      document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('enlaceForm').addEventListener('click', function(a) {
+          a.preventDefault();
+     
+  
 
     
     let conector = "+"
@@ -64,7 +73,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
                    
   })
-})
+});
+}
 
 
 

@@ -117,7 +117,7 @@ Desarrollo web customizado
 <body>
   <div class="body-inner">
 
-    <!-- BARRA SUPERIOR ICONOS SOCIALES FACEBOOK YOUTUBE INSTAGRAM EMAIL  -->
+    <!-- BARRA SUPERIOR GOOGLE MAPS E ICONOS SOCIALES FACEBOOK YOUTUBE INSTAGRAM EMAIL  -->
 
     <div id="top-bar" class="top-bar">
       <div class="container">
@@ -135,7 +135,7 @@ Desarrollo web customizado
 
           <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
             <ul class="list-unstyled">
-              <li>
+              <li style="display: flex; justify-content: space-around;">
                 <a title="Facebook" href="https://web.facebook.com/profile.php?id=61565458923978" target="_blank">
                   <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
                 </a>
@@ -184,7 +184,8 @@ Desarrollo web customizado
                     <div class="info-box">
                       <div class="info-box-content">
                         <p class="info-box-title">Teléfonos</p>
-                        <p class="info-box-subtitle"> 4550904 | 3413-236230</p>
+                        <p class="info-box-subtitle"> <a href="tel:4550904" style="color: rgb(78, 78, 78);">4550904 </a>
+                          | <a href="tel:3413236230"> 3413-236230</a> </p>
                       </div>
                     </div>
                   </li>
@@ -192,7 +193,7 @@ Desarrollo web customizado
                   <li class="header-get-a-quote">
                     <a class="btn btn-primary"
                       href="https://api.whatsapp.com/send?phone=3413236230&text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20Cardozo%20persianas%20y%20cortinas%20Rosario."
-                      target="_blank">Enviá WhatsApp!</a>
+                      target="_blank" style="color: black;">Enviá WhatsApp!</a>
                   </li>
 
                 </ul><!-- Ul end -->
@@ -280,26 +281,362 @@ Desarrollo web customizado
 
   <!-- FINAL HEADER ENCABEZADO -->
 
-  <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
-    <div class="banner-text">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="banner-heading">
-              <h1 class="banner-title">Trabajos realizados</h1>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb justify-content-center">
-                  <li class="breadcrumb-item"><a href="#">Inicio</a></li>
-                  <li class="breadcrumb-item"><a href="#">trabajos</a></li>
-                  <li class="breadcrumb-item active" aria-current="page">realizados</li>
-                </ol>
-              </nav>
+  <!-- CAROUSEL CARROUSEL SLIDER SLIDE -->
+
+  <div class="banner-carousel banner-carousel-1 mb-0">
+    <div class="banner-carousel-item" loading="lazy" style=" background-image:url(images/slider-main/back1.jpg)">
+      <div class="slider-content">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12 text-center">
+              <h2 class="slide-title" data-animation-in="slideInLeft">25 años de experiencia en</h2>
+              <h3 class="slide-sub-title" data-animation-in="slideInRight">Instalación y reparaciones</h3>
+              <p data-animation-in="slideInLeft" data-duration-in="1.2">
+                <a href="servicios.html" class="slider btn btn-primary" style="color: rgb(66, 66, 66);">Nuestros
+                  Servicios</a>
+                <a href="contacto.html" class="slider btn btn-primary border">Contáctanos</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-carousel-item" loading="lazy" style="background-image:url(images/slider-main/back2.jpg)">
+      <div class="slider-content text-left">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12">
+              <h2 class="slide-title-box" data-animation-in="slideInDown" style="color: rgb(66, 66, 66);">Servicio
+                profesional</h2>
+              <h3 class="slide-title" data-animation-in="fadeIn">Cuando el tiempo importa</h3>
+              <h3 class="slide-sub-title" data-animation-in="slideInLeft">la elección es simple</h3>
+              <p data-animation-in="slideInRight">
+                <a href="servicios.html" class="slider btn btn-primary border">Nuestros Servicios</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-carousel-item" loading="lazy" style="background-image:url(images/slider-main/back3.jpg)">
+      <div class="slider-content text-right">
+        <div class="container h-100">
+          <div class="row align-items-center h-100">
+            <div class="col-md-12">
+              <h2 class="slide-title" data-animation-in="slideInDown">Trabajos garantizados</h2>
+              <h3 class="slide-sub-title" data-animation-in="fadeIn">Realizados por expertos</h3>
+              <p class="slider-description lead" data-animation-in="slideInRight">Para que tu inversión sea aliada de tu
+                éxito. </p>
+              <div data-animation-in="slideInLeft">
+                <a href="contacto.html" class="slider btn btn-primary" aria-label="contact-with-us"
+                  style="color: rgb(66, 66, 66);">Cotización gratuita</a>
+                <a href="sobre-nosotros.html" class="slider btn btn-primary border"
+                  aria-label="learn-more-about-us">Sobre nosotros</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="call-to-action-box no-padding">
+    <div class="container">
+      <div class="action-style-box">
+        <div class="row align-items-center">
+          <div class="col-md-8 text-center text-md-left">
+            <div class="call-to-action-text">
+              <h3 class="action-title" style="color: black;">Sabemos cómo resolver tu problema</h3>
             </div>
           </div><!-- Col end -->
-        </div><!-- Row end -->
-      </div><!-- Container end -->
-    </div><!-- Banner text end -->
-  </div><!-- Banner area end -->
+          <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
+            <div class="call-to-action-btn">
+              <a class="btn btn-dark"
+                href="https://api.whatsapp.com/send?phone=3413236230&text=Hola Cardozo Persianas y Cortinas Rosario, me gustaría hacer una consulta."
+                target="_blank">Contactar</a>
+                <!-- <link rel="stylesheet" href="./css/stylefont.css"> -->
+            </div>
+          </div><!-- col end -->
+        </div><!-- row end -->
+      </div><!-- Action style box -->
+    </div><!-- Container end -->
+  </section><!-- Action end -->
+
+  <section id="ts-features" class="ts-features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="ts-intro">
+            <h2 class="into-title">Sobre nosotros</h2>
+            <h3 class="into-sub-title">El trabajo en buenas manos</h3>
+            <p>Con más de 25 años de experienca en el rubro, nuestro continua voluntad de realizar trabajos de calidad,
+              en tiempo y forma, aunada a los valores de <b>responsabilidad, compromiso y confianza</b>, son la mejor
+              medida de nuestra trayectoria.</p>
+          </div><!-- Intro box end -->
+
+          <div class="gap-20"></div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ts-service-box">
+                <span class="ts-service-icon">
+                  <i class="fas fa-trophy"></i>
+                </span>
+                <div class="ts-service-box-content">
+                  <h3 class="service-box-title">Compromiso</h3>
+                </div>
+              </div><!-- Service 1 end -->
+            </div><!-- col end -->
+
+            <div class="col-md-6">
+              <div class="ts-service-box">
+                <span class="ts-service-icon">
+                  <i class="fas fa-sliders-h"></i>
+                </span>
+                <div class="ts-service-box-content">
+                  <h3 class="service-box-title">Dedicación</h3>
+                </div>
+              </div><!-- Service 2 end -->
+            </div><!-- col end -->
+          </div><!-- Content row 1 end -->
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="ts-service-box">
+                <span class="ts-service-icon">
+                  <i class="fas fa-thumbs-up"></i>
+                </span>
+                <div class="ts-service-box-content">
+                  <h3 class="service-box-title">Guiados por el compromiso</h3>
+                </div>
+              </div><!-- Service 1 end -->
+            </div><!-- col end -->
+
+            <div class="col-md-6">
+              <div class="ts-service-box">
+                <span class="ts-service-icon">
+                  <i class="fas fa-users"></i>
+                </span>
+                <div class="ts-service-box-content">
+                  <h3 class="service-box-title">Equipo profesional</h3>
+                </div>
+              </div><!-- Service 2 end -->
+            </div><!-- col end -->
+          </div><!-- Content row 1 end -->
+        </div><!-- Col end -->
+
+        <div class="col-lg-6 mt-4 mt-lg-0">
+          <h3 class="into-sub-title">Nuestro compromiso</h3>
+          <p>"".</p>
+
+          <div class="accordion accordion-group" id="our-values-accordion">
+            <div class="card">
+              <div class="card-header p-0 bg-transparent" id="headingOne">
+                <h2 class="mb-0">
+                  <button style="color: rgb(66, 66, 66);" class="btn btn-block text-left" type="button"
+                    data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Seguridad
+                  </button>
+                </h2>
+              </div>
+
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                data-parent="#our-values-accordion">
+                <div class="card-body">
+                  Cada reparación, cada entrega, tiene nuestra garantía personal, de adecuación y seguridad, respaldada
+                  por 25 años de experiencias de clientes satisfechos.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-0 bg-transparent" id="headingTwo">
+                <h2 class="mb-0">
+                  <button style="color: rgb(66, 66, 66);" class="btn btn-block text-left collapsed" type="button"
+                    data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Servicio 24/7
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#our-values-accordion">
+                <div class="card-body">
+                  Es parte de nuestro compromiso, y la base de nuestra reputación: estamos cuando nos necesitás.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header p-0 bg-transparent" id="headingThree">
+                <h2 class="mb-0">
+                  <button style="color: rgb(66, 66, 66);" class="btn btn-block text-left collapsed" type="button"
+                    data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                    aria-controls="collapseThree">
+                    Responsabilidad profesional
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                data-parent="#our-values-accordion">
+                <div class="card-body">
+                  La calidad de nuestros trabajos, y la entrega de los mismos en las condiciones pactadas, es nuestro
+                  marca personal.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/ Accordion end -->
+
+        </div><!-- Col end -->
+      </div><!-- Row end -->
+    </div><!-- Container end -->
+  </section><!-- Feature are end -->
+
+  <section id="facts" class="facts-area dark-bg">
+    <div class="container">
+      <div class="facts-wrapper">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 ts-facts">
+            <div class="ts-facts-img">
+              <img loading="lazy" src="images/icon-image/cardozo-cortinas-persianas-reparaciones-rosario-60x60.png"
+                alt="facts-img reparacion cortinas rosario icono de cortina reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp" data-count="485">0</span></h2>
+              <h3 class="ts-facts-title">Clientes satisfechos</h3>
+            </div>
+          </div><!-- Col end -->
+
+          <!-- <div class="col-md-3 col-sm-6 ts-facts mt-5 mt-sm-0">
+              <div class="ts-facts-img">
+                <img loading="lazy" src="images/icon-image/fact2.png" alt="facts-img">
+              </div>
+              <div class="ts-facts-content">
+                <h2 class="ts-facts-num"><span class="counterUp" data-count="647">0</span></h2>
+                <h3 class="ts-facts-title">Staff Members</h3>
+              </div>
+          </div>Col end -->
+
+          <div class="col-md-4 col-sm-6 ts-facts mt-5 mt-md-0">
+            <div class="ts-facts-img">
+              <img loading="lazy" src="images/icon-image/fact3.png"
+                alt="facts-img reparacion cortinas rosario icono de reloj horas trabajadas reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp" data-count="4320">0</span></h2>
+              <h3 class="ts-facts-title">Horas brindadas</h3>
+            </div>
+          </div><!-- Col end -->
+
+          <div class="col-md-4 col-sm-6 ts-facts mt-5 mt-md-0">
+            <div class="ts-facts-img">
+              <img loading="lazy" src="images/icon-image/fact1.png"
+                alt="facts-img reparacion cortinas rosario icono de casas hogares y negocios a los que se les brindo servicio reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-facts-content">
+              <h2 class="ts-facts-num"><span class="counterUp" data-count="300">0</span></h2>
+              <h3 class="ts-facts-title">Hogares protegidos</h3>
+            </div>
+          </div><!-- Col end -->
+
+        </div> <!-- Facts end -->
+      </div>
+      <!--/ Content row end -->
+    </div>
+    <!--/ Container end -->
+  </section><!-- Facts end -->
+
+  <section id="ts-service-area" class="ts-service-area pb-0">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <h2 class="section-title">Somos especialistas</h2>
+          <h3 class="section-sub-title">En lo que hacemos</h3>
+        </div>
+      </div>
+      <!--/ Title row end -->
+
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon1.png"
+                alt="service-icon icono de edificios y trabajos domiciliarios reparacion cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Trabajos domiciliarios</a></h3>
+              <p>Con absoluta disponibilidad, para Reparaciones o instalaciones nuevas.</p>
+            </div>
+          </div><!-- Service 1 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon2.png"
+                alt="service-icon icono de sericio técnico herramientas reparacion cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Servicio Técnico</a></h3>
+              <p>Contamos con el mejor equipo de profesionales, para realizar reparaciones las 24 hs.</p>
+            </div>
+          </div><!-- Service 2 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon3.png"
+                alt="service-icon icono de diseño a medida customizable a gusto del cliente reparacion cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Diseño customizable</a></h3>
+              <p>Toda nuestra dedicación y compromiso, puesto al servicio de su idea.</p>
+            </div>
+          </div><!-- Service 3 end -->
+
+        </div><!-- Col end -->
+
+        <div class="col-lg-4 text-center">
+          <img loading="lazy" class="img-fluid" src="images/services/reparador-persianas-cortinas-cardozo-rosario.jpg"
+            alt="service-avater-image foto de hombre reparando cortina reparacion cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+        </div><!-- Col end -->
+
+        <div class="col-lg-4 mt-5 mt-lg-0 mb-4 mb-lg-0">
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon4.png"
+                alt="service-icon icono de paleta de colores o paleta de opciones de diseño y tipo de servicios y productos, persianas cortinas, reparación cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Opciones de diseño</a></h3>
+              <p>Variedad en tipos, calidades y precios, adecuados para todo tipo de proyecto.</p>
+            </div>
+          </div><!-- Service 4 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon5.png"
+                alt="service-icon icono de trabajo ágil y prácticas de desempeño efectivo y eficaz de labores reparacion cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Trabajo dinámico</a></h3>
+              <p>Implementamos las mejores prácticos de <b>trabajo ágil</b> para construcciones nuevas</p>
+            </div>
+          </div><!-- Service 5 end -->
+
+          <div class="ts-service-box d-flex">
+            <div class="ts-service-box-img">
+              <img loading="lazy" src="images/icon-image/service-icon6.png"
+                alt="service-icon icono de gestion de seguridad, de un casco de obra de seguridad, en relación al desempeño de labores con normas de seguridad y prácticas IRAM de responsabilidad reparación cortinas rosario reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+            </div>
+            <div class="ts-service-box-info">
+              <h3 class="service-box-title"><a href="#">Gestión de la seguridad</a></h3>
+              <p>Todos nuestros proyectos, ponen el acento, en la seguridad para la realización, y para los resultados.
+              </p>
+            </div>
+          </div><!-- Service 6 end -->
+        </div><!-- Col end -->
+      </div><!-- Content row end -->
+
+    </div>
+    <!--/ Container end -->
+  </section><!-- Service end -->
 
   <section id="project-area" class="project-area solid-bg">
     <div class="container">
@@ -312,12 +649,13 @@ Desarrollo web customizado
       <!--/ Title row end -->
 
       <!-- FILTROS DE FOTOS Y VIDEOS COMIENZO -->
+      <!-- FILTROS DE FOTOS Y VIDEOS COMIENZO -->
 
       <div class="row">
         <div class="col-12">
           <div class="shuffle-btn-group">
-            <label class="active" for="all">
-              <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Mostrar todo
+            <label for="all">
+              <input type="radio" name="shuffle-filter" id="all" value="all">Mostrar todo
             </label>
             <label for="automatizaciones">
               <input type="radio" name="shuffle-filter" id="automatizaciones" value="automatizaciones">Automatizaciones
@@ -338,6 +676,9 @@ Desarrollo web customizado
             <label for="mas">
               <input type="radio" name="shuffle-filter" id="mas" value="mas">Y más
             </label>
+            <label class="active" style="display: none;" for="ocultar">
+              <input  type="radio" name="shuffle-filter" id="ocultar" value="ocultar" checked="checked">Ocultar
+            </label>
           </div><!-- project filter end -->
 
 
@@ -348,7 +689,8 @@ Desarrollo web customizado
           <div class="row shuffle-wrapper">
             <div class="col-1 shuffle-sizer"></div>
 
-            <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;automatizaciones&quot;]">
+            <div class="col-lg-4 col-md-6 shuffle-item"
+              data-groups="[&quot;automatizaciones&quot;,&quot;healthcare&quot;]">
               <div class="project-img-container">
                 <a class="gallery-popup" href="images/projects/automatizaciones-grande.jpg" aria-label="project-img">
                   <img loading="lazy" class="img-fluid" src="images/projects/automatizaciones-750-600.jpg"
@@ -465,6 +807,29 @@ Desarrollo web customizado
                 </div>
               </div>
             </div><!-- shuffle item 6 Y MAS TRABAJOS GENERALES end -->
+
+              <!-- shuffle item 7 Y OCULTAR START-->
+
+              <div class="col-lg-4 col-md-6 shuffle-item" data-groups="[&quot;ocultar&quot;]">
+                <div class="project-img-container">
+                  
+                    <img class="img-fluid" src="./images/projects/vercortinas.jpg"
+                      alt="project-img imagen cartel ver cortinas varias reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+                    <span class="gallery-icon"><i class="fa fa-plus"></i></span>
+                  </a>
+                  <div class="project-item-info">
+                    <div class="project-item-info-content">
+                      <h3 class="project-item-title">
+                        <!-- <a href="index.html"></a> -->
+                      </h3>
+                      <p class="project-cat"></p>
+                    </div>
+                  </div>
+                </div>
+
+            </div><!-- shuffle item 7 Y OCULTAR end -->
+
+
           </div><!-- shuffle end -->
         </div>
 
@@ -472,7 +837,7 @@ Desarrollo web customizado
 
         <div class="col-12">
           <div class="general-btn text-center">
-            <a class="btn btn-primary" href="contacto.html">Contactanos ahora</a>
+            <a class="btn btn btn-primary btn-contrast" href="contacto.html">Contactanos ahora</a>
           </div>
         </div>
 
@@ -480,7 +845,6 @@ Desarrollo web customizado
     </div>
     <!--/ Container end -->
   </section><!-- Project area end -->
-
   <!-- FOOTER INICIO -->
 
   <footer id="footer" class="footer bg-overlay">
@@ -490,11 +854,11 @@ Desarrollo web customizado
           <div class="col-lg-4 col-md-6 footer-widget footer-about">
             <h3 class="widget-title">Sobre nosotros</h3>
             <img loading="lazy" width="200px" class="footer-logo" src="images/footer-cardozo-persianas-rosario.jpg"
-              alt="reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
+              alt="Logo de Reparación Cortinas Rosario que es también la razón social o el nombre de Cardozo Persianas y Cortinas Rosario - reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
             <p>Empresa Rosarina con más de 25 años de experiencia en el rubro de instalación y reparación de persianas y
-              cortinas en Rosario y zona de influencia.</p>
+              cortinas en Rosario y zona de influencia. Tel.: 4550904</p>
             <div class="footer-social">
-              <ul>
+              <ul style="display: flex; justify-content: space-around;">
                 <li>
                   <a title="Facebook" href="https://web.facebook.com/profile.php?id=61565458923978" target="_blank">
                     <span class="social-icon"><i class="fab fa-facebook-f"></i></span>
@@ -525,8 +889,8 @@ Desarrollo web customizado
             <div class="working-hours">
               Podés contactarnos las 24 horas por emergencias, pero también tenemos horarios de trabajo para atención no
               primordial.
-              <br><br> Lunes a viernes: <span class="text-right">9:00 - 17:00 </span>
-              <br> Sábado: <span class="text-right">9:00 - 12:00</span>
+              <br><br> Lunes a viernes: <span class="text-right">8:00 - 19:00 </span>
+              <br> Sábado: <span class="text-right">8:00 - 15:00</span>
               <br> Domingos y feriados <span class="text-right">Sobre disponibilidad</span>
             </div>
           </div><!-- Col end -->
@@ -552,27 +916,32 @@ Desarrollo web customizado
             <div class="copyright-info">
               <span>Copyright &copy;
                 <script>
-                  document.write(new Date().getFullYear())
-                </script>, Implementación &amp; Soporte realizados por <a href="https://pablomujica.com.ar"
+                  // document.write(new Date().getFullYear())
+                  
+                </script>2024, Implementación &amp; Soporte realizados por <a href="https://pablomujica.com.ar"
                   target="_blank"><b>Pablo Mujica | Freelancer</b></a>
               </span>
             </div>
           </div>
+
+          <!-- Nav bar inferior start -->
 
           <div class="col-md-6">
             <div class="footer-menu text-center text-md-right">
               <ul class="list-unstyled">
                 <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
                 <li><a href="nuestras-redes.html">En redes</a></li>
+                <li><a href="sitios-amigos.html">Sitios amigos</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a
                     href="https://api.whatsapp.com/send?phone=3413236230&text=Hola%20Cardozo%20Persianas%20y%20Cortinas%20Rosario,%20me%20gustar%C3%ADa%20hacer%20una%20consulta."
                     target="_blank">WhatsApp</a></li>
-                <!-- <li><a href="pricing.html">Pricing</a></li> -->
               </ul>
             </div>
           </div>
         </div><!-- Row end -->
+
+        <!-- Nav bar inferior end -->
 
         <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
           <button class="btn btn-primary" title="Back to Top">
@@ -604,9 +973,9 @@ Desarrollo web customizado
 
 
   <!-- Google Map API Key-->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU" defer></script> -->
   <!-- Google Map Plugin-->
-  <script src="plugins/google-map/map.js" defer></script>
+  <!-- <script src="plugins/google-map/map.js" defer></script> -->
 
   <!-- Template custom -->
   <script src="js/script.js"></script>
@@ -618,20 +987,41 @@ Desarrollo web customizado
 
   <!-- BOTON FLOTANTE DE WHATSAPP INICIO -->
 
-  <a id="WhatsApp-flotante"
-    href="https://api.whatsapp.com/send?phone=3413236230&text=Hola Cardozo Persianas y Cortinas Rosario, me gustaría hacer una consulta."
-    class="float" target="_blank">
+  <a id="WhatsApp-flotante" href="https://ebxf.short.gy/mensaje-whatsapp1-reparacion-cortinas-rosario" class="float"
+    target="_blank" aria-label="imagen logo whatsapp para enviar mensaje de whatsapp"
+    alt="botón de whatsapp para enviar mensaje de whatsapp que es el icono de whatsapp que permite enviar el mensaje - reparación reparacion arreglo instalación instalacion construccion cortinas rosario cardozo ensamblado confeccion persianas rosarina rosario derosario fabricación fabricacion colocación colocacion todo tipo de cortinas y persianas">
 
     <!-- <a href="" class="float" target="_blank" onclick='window.location.assign("https://api.whatsapp.com/send?phone=3413236230&text=Hola, me gustaría hacer una consulta."); return false;'></a> -->
 
 
 
     <i class="fa fa-whatsapp my-float "></i>
+    <!-- <img src="./images/icons/whatsapp-color.svg" alt=""> -->
+
   </a>
 
-  <!-- BOTON FLOTANTE DE WHATSAPP CIERRE -->
+  <!-- BOTON FLOTANTE DE WHATSAPP CIERRE ---->
 
-  <!-- FOOTER CIERRE -->
+
+    <!-- SCRIPT CAMBIO DE SELECION DE SHUFFLES DE FOTOS ---->
+
+  <script>
+    function cambiar() {
+      setTimeout(() => {
+        document.getElementById("all").click();
+      }, "1000");
+
+      setTimeout(() => {
+        document.getElementById("ocultar").click();
+      }, "2000");
+
+      // setTimeout(() => {
+      //   document.getElementById("all").click();
+      // }, "3000");
+    }
+
+    cambiar();
+  </script>
 
   <script src="https://kit.fontawesome.com/19fcba567f.js" crossorigin="anonymous"></script>
 
